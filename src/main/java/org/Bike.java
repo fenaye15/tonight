@@ -4,7 +4,7 @@ public class Bike {
     private String name;
 
     public void ride() {
-        System.out.println("riding the " + name );
+        System.out.println("riding the " + name + size );
     }
 
 
