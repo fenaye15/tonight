@@ -16,7 +16,7 @@ public class AccountTest {
         // create a Scanner to obtain input from the command window
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Entere deposit amount for account1: ");  //prompt
+        System.out.print("Enter deposit amount for account1: ");  //prompt
         double depositAmount = input.nextDouble(); //obtain user input
         System.out.printf("%nadding %.2f to account1 balance%n%n", 
             depositAmount);
