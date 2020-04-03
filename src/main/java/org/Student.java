@@ -28,7 +28,7 @@ public class Student {
     }
 
     // setd the Student's average
-    public void setAverage(double studentAverage) {
+    public void setAverage(double average) {
         //validate
         //keep
         if (average > 0.0) {
