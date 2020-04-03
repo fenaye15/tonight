@@ -25,9 +25,6 @@ public class ClassAverage {
         //display total and average of grades
         System.out.printf("%nTotal of all 10 grades is %d%n", total);
         System.out.printf("Class average is %d%n", average);
-        input();
-    }
-
-    private static void input() {
+        input.close();
     }
 }
