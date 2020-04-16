@@ -4,8 +4,8 @@ package org;
 public class Power {
     public static void main (String[] args) {
 
-    double result = Math.pow(2.5, 3);
-    System.out.printf("%n%d ", result);
-    System.out.println(Math.pow(7, 3));
+    // double result = Math.pow(2.5, 3);
+    // System.out.printf("%n%d ", result);
+    System.out.println(Math.pow(2.5, 3));
     }
 }
