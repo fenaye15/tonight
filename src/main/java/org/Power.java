@@ -6,5 +6,6 @@ public class Power {
 
     double result = Math.pow(2.5, 3);
     System.out.printf("%n%d ", result);
+    System.out.println(Math.pow(7, 3));
     }
 }
