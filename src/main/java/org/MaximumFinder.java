@@ -19,6 +19,7 @@ public class MaximumFinder {
 
         //display max
         System.out.println("Maximum is: " + result);
+        input.close();
     }
 
     //returns the max
