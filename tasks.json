@@ -5,7 +5,7 @@
             "label": "maven build and run",
             "command": "mvn clean install && java -jar ./target/*.jar",
             "target": {
-                "workingDir": "${CHE_PROJECTS_ROOT}/console-java-simple",
+                "workingDir": "${CHE_PROJECTS_ROOT}/fenaye15-tonight",
                 "component": "maven"
             }
         },
@@ -14,7 +14,7 @@
             "label": "maven build",
             "command": "mvn clean install",
             "target": {
-                "workingDir": "${CHE_PROJECTS_ROOT}/console-java-simple",
+                "workingDir": "${CHE_PROJECTS_ROOT}/fenaye15-tonight",
                 "component": "maven"
             }
         }
