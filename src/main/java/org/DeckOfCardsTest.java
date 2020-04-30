@@ -4,7 +4,7 @@ package org;
 public class DeckOfCardsTest {
     // execute application
     public static void main(String[] args) {
-        DeckofCards myDeckOfCards = new DeckofCards();
+        DeckOfCards myDeckOfCards = new DeckOfCards();
         myDeckOfCards.shuffle();
 
         // print all
