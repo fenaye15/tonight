@@ -21,4 +21,8 @@ Copy modified tasks.json into .theia
 
 Change pom.xml to have current file I want to execute
 
+To execute code:
+Keep pom.xml file selected in left panel
+In menu bar select Terminal -> Run Task -> Maven Build and Run -> Continue without scanning the task output
+
 If any file not compiled, build will not run
