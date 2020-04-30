@@ -11,7 +11,7 @@ public class DeckOfCards {
     private int currentCard = 0;
 
     //constructor fills deck of cards
-    public DeckofCards() {
+    public DeckOfCards() {
         String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
 
