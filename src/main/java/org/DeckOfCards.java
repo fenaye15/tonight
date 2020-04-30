@@ -31,7 +31,7 @@ public void shuffle() {
     // for each Card, pick another random card and swap them
     for (int first = 0; first < deck.length; first++) {
         // select a random number between 0 and 51
-        int second = randonNumbers.nextInt(NUMBER_OF_CARDS);
+        int second = randomNumbers.nextInt(NUMBER_OF_CARDS);
 
         //swap current Card
         Card temp = deck[first];
