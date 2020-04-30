@@ -23,7 +23,7 @@ public class PassArray {
            System.out.printf(" %d", value);
        }
 
-       System.out.printf("%n%nEffects of passing array element value:%n" + "array[3] after modifyElement: %d%n", array[3]);
+       System.out.printf("%n%nEffects of passing array element value:%n" + "array[3] before modifyElement: %d%n", array[3]);
 
 
 
@@ -33,7 +33,7 @@ public class PassArray {
 
 
    // multiply each element of an array by 2
-   public static void modifyElement(int element) {
+   public static void modifyArray(int[] array2) {
        for (int counter = 0; counter < array2.length; counter++) {
            array2[counter] *= 2;
        }
