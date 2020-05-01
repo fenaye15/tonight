@@ -37,7 +37,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.InitArray</mainClass>
+                            <mainClass>org.GradeBookTest</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
